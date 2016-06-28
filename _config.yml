@@ -7,7 +7,7 @@ dropcap:			true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  https://midpt.github.io/cdrama
+url:        	  https://gitmanne.github.io/drama2
 
 
 # Owner/author information
@@ -40,7 +40,7 @@ links:
     external: false
     icon: home
   - title: Featured Posts
-    url: 
+    url: /featured
 #  - title: Categories
 #    url: /categories
 #  - title: About
@@ -73,8 +73,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://midpt.github.io/cdrama/'
-  relativeLinks: 'http://midpt.github.io/cdrama/links.jsonp'
+  siteurl: 'http://gitmannen.github.io/drama2/'
+  relativeLinks: 'http://gitmannen.github.io/drama2/links.jsonp'
   media: 'images'
   metadata:
     _posts:
