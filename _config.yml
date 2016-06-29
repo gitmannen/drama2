@@ -39,8 +39,7 @@ links:
     url: /
     external: false
     icon: home
-  - title: Featured Posts
-    url: /featured
+  
   - title: Gallery
     url: /gallery
 #  - title: Categories
