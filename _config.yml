@@ -36,7 +36,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Home
-    url: /drama2/index
+    url: /
     external: false
     icon: home
   - title: Featured Posts
