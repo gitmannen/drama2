@@ -75,7 +75,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://gitmannen.github.io/drama2/'
+  siteurl: 'http://gitmannen.github.io/drama2/index.html'
   relativeLinks: 'http://gitmannen.github.io/drama2/links.jsonp'
   media: 'images'
   metadata:
