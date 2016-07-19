@@ -44,7 +44,7 @@ links:
   - title: Gallery
     url: /gallery
   - title: Latest
-  - url: /latest
+    url: /latest
 #  - title: Categories
 #    url: /categories
 #  - title: About
