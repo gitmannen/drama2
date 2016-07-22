@@ -60,7 +60,7 @@ description: "Gallery."
 
 <h1>Videos</h1>
 
-<select name="videoToPlay" style="width:200px";>
+<select id="videoselect" name="videoToPlay" style="width:200px"; onchange="update()">
   <option value="First">First</option>
   <option value="Second">Second</option>
   <option value="Third">Third</option>
@@ -85,9 +85,17 @@ description: "Gallery."
 <div id="byte_range"></div>
 <div id="byte_content"></div>
  
- 
+ <div id="testout"></div>
  
  <script>
+ 
+  function update() {
+  var result = document.getElementById('videoselect').value;
+  document.getElementById('testout').innerHTML = result;
+  }
+ 
+ 
+ 
   function readBlob(opt_startByte, opt_stopByte) {
 
     var files = document.getElementById('files').files;
