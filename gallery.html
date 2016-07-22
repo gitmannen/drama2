@@ -69,7 +69,7 @@ description: "Gallery."
 <div id="testout">Testout</div>
 <div class="small-9 small-centered columns">
 	<center>
-		<video width="640" height="480" controls="controls" allowfullscreen="true" poster="">
+		<video id="vid1" width="640" height="480" controls="controls" allowfullscreen="true" poster="">
 			<source id="vsource1" src="{{ site.url }}/videos/vid.mp4" type="video/mp4">
 		</video> 
 	</center>
@@ -95,7 +95,9 @@ description: "Gallery."
   var result = document.getElementById('videoselect').value;
   var vidpath = "{{ site.url }}/videos/" + result;
   document.getElementById('testout').innerHTML = result;
-  document.getElementById('vsource1').setAttribute('src', vidpath);
+  document.getElementById('vsource1')[0].setAttribute('src', vidpath);
+  document.getElementById('vid1').load();
+  document.getElementById('vid1').play();
   }
  
  
