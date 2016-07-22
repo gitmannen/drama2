@@ -62,7 +62,7 @@ description: "Gallery."
 
 <select id="videoselect" name="videoToPlay" style="width:200px"; onchange="update()">
   <option value="First">First</option>
-  <option value="Second">Second</option>
+  <option value="shortvid.mp4">shortvid</option>
   <option value="Third">Third</option>
   <option value="Fourth">Fourth</option>
 </select>
@@ -70,7 +70,7 @@ description: "Gallery."
 <div class="small-9 small-centered columns">
 	<center>
 		<video width="640" height="480" controls="controls" allowfullscreen="true" poster="">
-			<source src="{{ site.url }}/videos/vid.mp4" type="video/mp4">
+			<source id="vsource1" src="{{ site.url }}/videos/vid.mp4" type="video/mp4">
 		</video> 
 	</center>
 </div>
@@ -89,9 +89,13 @@ description: "Gallery."
  
  <script>
  
+ 
+ 
   function update() {
   var result = document.getElementById('videoselect').value;
+  var vidpath = "{{ site.url }}/videos/" + result;
   document.getElementById('testout').innerHTML = result;
+  document.getElementById('vsource1').setAttribute('src', vidpath);
   }
  
  
