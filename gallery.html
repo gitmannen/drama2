@@ -95,7 +95,7 @@ description: "Gallery."
   var result = document.getElementById('videoselect').value;
   var vidpath = "{{ site.url }}/videos/" + result;
   document.getElementById('testout').innerHTML = result;
-  document.getElementById('vsource1')[0].setAttribute('src', vidpath);
+  document.getElementById('vsource1').setAttribute('src', vidpath);
   document.getElementById('vid1').load();
   document.getElementById('vid1').play();
   }
