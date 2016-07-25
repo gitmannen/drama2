@@ -15,9 +15,10 @@ slippryLoaded: true
 ---
 <style>
  img{
+ /*
  max-height: 70%;
  width: auto;
- }
+ */}
 </style>
 
 ### My Slippry Image Carousel

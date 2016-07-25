@@ -1,4 +1,4 @@
-console.log("slippryLoaded")
+alert("slippryLoaded")
 
 var demo1 = $("#demo1").slippry({
 					 transition: 'fade',
