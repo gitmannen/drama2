@@ -1,22 +1,22 @@
-alert("slippryLoaded")
+console.log("slippryLoaded")
 
 var demo1 = $("#demo1").slippry({
-					// transition: 'fade',
+					 transition: 'fade',
 					// useCSS: true,
-					// speed: 1000,
+					 speed: 1000,
 					// pause: 3000,
-					// auto: true,
+					 auto: true,
 					// preload: 'visible',
-					// autoHover: false
+					 autoHover: false
 				});
 
-				$('.stop').click(function () {
+				/* $('.stop').click(function () {
 					demo1.stopAuto();
-				});
+				}); */
 
-				$('.start').click(function () {
+				/* $('.start').click(function () {
 					demo1.startAuto();
-				});
+				}); */
 
 				$('.prev').click(function () {
 					demo1.goToPrevSlide();
@@ -26,7 +26,7 @@ var demo1 = $("#demo1").slippry({
 					demo1.goToNextSlide();
 					return false;
 				});
-				$('.reset').click(function () {
+				/* $('.reset').click(function () {
 					demo1.destroySlider();
 					return false;
 				});
@@ -37,4 +37,4 @@ var demo1 = $("#demo1").slippry({
 				$('.init').click(function () {
 					demo1 = $("#demo1").slippry();
 					return false;
-				});
+				}); */
