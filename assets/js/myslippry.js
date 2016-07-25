@@ -1,14 +1,14 @@
 alert("slippryLoaded")
 
 var demo1 = $("#demo1").slippry({
-					 transition: 'fade',
+					//transition: 'fade',
 					// useCSS: true,
 					 speed: 1000,
 					// pause: 3000,
-					 auto: true,
-					 adaptiveHeight: false,
+					auto: true
+					//adaptiveHeight: false,
 					// preload: 'visible',
-					 autoHover: false
+					//autoHover: false
 				});
 
 				$('.prev').click(function () {
