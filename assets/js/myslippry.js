@@ -6,7 +6,7 @@ var demo1 = $("#demo1").slippry({
 					 speed: 1000,
 					// pause: 3000,
 					 auto: true,
-					 adaptiveHeight: false
+					 adaptiveHeight: false,
 					// preload: 'visible',
 					 autoHover: false
 				});
