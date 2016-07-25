@@ -11,14 +11,6 @@ var demo1 = $("#demo1").slippry({
 					 autoHover: false
 				});
 
-				/* $('.stop').click(function () {
-					demo1.stopAuto();
-				}); */
-
-				/* $('.start').click(function () {
-					demo1.startAuto();
-				}); */
-
 				$('.prev').click(function () {
 					demo1.goToPrevSlide();
 					return false;
@@ -27,6 +19,16 @@ var demo1 = $("#demo1").slippry({
 					demo1.goToNextSlide();
 					return false;
 				});
+				
+				/* $('.stop').click(function () {
+					demo1.stopAuto();
+				}); */
+
+				/* $('.start').click(function () {
+					demo1.startAuto();
+				}); */
+
+
 				/* $('.reset').click(function () {
 					demo1.destroySlider();
 					return false;
