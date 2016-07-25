@@ -18,7 +18,7 @@ slippryLoaded: true
 ### My Slippry Image Carousel
 
 
-	For more information on Slippry Slider please refer to [Slippry](http://slippry.com/)
+>	For more information on Slippry Slider please refer to [Slippry](http://slippry.com/)
 
 
 <section class="demo_wrapper">
