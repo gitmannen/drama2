@@ -22,10 +22,10 @@ For more information on Slippry Slider please refer to [Slippry](http://slippry.
 
 
 <section class="demo_wrapper">
-<ul id="demo1">
-	<center><li><a href="#slide1"><img src="{{ site.url }}/images/costume3.jpg" style="height:240px; width:auto;" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li></center>
-	<center><li><a href="#slide2"><img src="{{ site.url }}/images/costume4.jpg"  alt="This is caption 2" style="height:240px; width:auto;"></a></li></center>
-	<center><li><a href="#slide3"><img src="{{ site.url }}/images/costume5.jpg" alt="And this is some very long caption for slide 3. Yes, really long." style="height:240px; width:auto;"></a></li></center>
+<ul id="demo1"  style="height:60%; width:auto;">
+	<center><li><a href="#slide1"><img src="{{ site.url }}/images/costume3.jpg" alt="This is caption 1 <a href='#link'>Even with links!</a>"></a></li></center>
+	<center><li><a href="#slide2"><img src="{{ site.url }}/images/costume4.jpg"  alt="This is caption 2"></a></li></center>
+	<center><li><a href="#slide3"><img src="{{ site.url }}/images/costume5.jpg" alt="And this is some very long caption for slide 3. Yes, really long."></a></li></center>
 </ul>
 <center>
 	<a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a>
