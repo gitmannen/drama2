@@ -14,7 +14,7 @@ featured: true
 slippryLoaded: true
 ---
 <style>
- li{height:30%;width:auto;}
+ li{height:200px;width:auto;}
 </style>
 
 ### My Slippry Image Carousel
