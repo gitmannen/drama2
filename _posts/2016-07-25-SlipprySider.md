@@ -16,13 +16,13 @@ slippryLoaded: true
 <style>
 	img
 	{
-		max-height: 50%;
+		max-height: 25%;
 		width: auto;
 	}
 
 
 </style>
-### My Slippry Image Carousel9
+### My Slippry Image Carousel3
 
 
 For more information on Slippry Slider please refer to [Slippry](http://slippry.com/)
