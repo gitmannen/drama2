@@ -16,7 +16,7 @@ slippryLoaded: true
 <style>
 	img
 	{
-		max-height: 25%;
+		max-height: 150px;
 		width: auto;
 	}
 
