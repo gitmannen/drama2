@@ -14,7 +14,7 @@ featured: true
 slippryLoaded: true
 ---
 
-### My Slippry Image Carousel
+### My Slippry Image Carousel7
 
 
 For more information on Slippry Slider please refer to [Slippry](http://slippry.com/)
