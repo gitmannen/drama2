@@ -66,8 +66,24 @@ x<meta charset="utf-8">
     <link rel="stylesheet" href="../assets/css/post.css" type='text/css'>
 
     --> 
-
 	
+	
+	
+{% if page.slippryLoaded %}
+	<style>
+		img
+		{
+			max-height: 150px;
+			width: auto;
+		}
+
+
+	</style>
+{% endif %}
+	
+	
+	
+
 {% if page.mathjax %}
 <!--Load Mathjax-->
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

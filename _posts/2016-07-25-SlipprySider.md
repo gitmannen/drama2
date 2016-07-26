@@ -13,15 +13,7 @@ comments: false
 featured: true
 slippryLoaded: true
 ---
-<style>
-	img
-	{
-		max-height: 150px;
-		width: auto;
-	}
 
-
-</style>
 ### My Slippry Image Carousel3
 
 
