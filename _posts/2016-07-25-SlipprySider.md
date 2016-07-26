@@ -23,7 +23,7 @@ slippryLoaded: true
 </style>
  -->
 
-### My Slippry Image Carousel8
+### My Slippry Image Carousel9
 
 
 For more information on Slippry Slider please refer to [Slippry](http://slippry.com/)
