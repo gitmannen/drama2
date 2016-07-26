@@ -5,20 +5,20 @@ var demo1 = $("#demo1").slippry({
 					// useCSS: true,
 					 speed: 1000,
 					// pause: 3000,
-					auto: true
+					auto: true,
 					//adaptiveHeight: false,
-					// preload: 'visible',
+					preload: 'visible',
 					//autoHover: false
 				});
 
-				$('.prev').click(function () {
+/* 				$('.prev').click(function () {
 					demo1.goToPrevSlide();
 					return false;
 				});
 				$('.next').click(function () {
 					demo1.goToNextSlide();
 					return false;
-				});
+				}); */
 				
 				/* $('.stop').click(function () {
 					demo1.stopAuto();
