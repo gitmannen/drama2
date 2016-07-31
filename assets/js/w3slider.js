@@ -69,6 +69,7 @@ function showSlides(n) {
 // eg domImggObj=document.getElementsByClassName("imgg");
 function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 {
+	console.log("inside imgWdHtSetCenter")
     var maxWidth = 640;//787; // change this to your need width for the image
     var maxHeight =480 ;//480;    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
@@ -83,8 +84,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
         .load(function() {
           width=this.width;
           height=this.height;
-          console.log("Width:  " + this.width);
-          console.log("Height: " + this.height);
+          console.log("onLoad Width:  " + this.width);
+          console.log("onLoad Height: " + this.height);
 
             var totalImg=$(".imgg").length;
             console.log("current image="+slideNumber+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
