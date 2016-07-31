@@ -121,10 +121,10 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
             var newwidth = width;//$(domSlideObj).width();
             var parentwidth=$(domSlideObj).parent().width();
             //var capwidth=$(domCapObj).innerWidth();
-            console.log("img "+slideNumber+"  Parent width="+parentwidth+"  img width="+newwidth);
             var widthdiff=(parentwidth-newwidth)/2;
             $(domSlideObj).css("margin-left",widthdiff);
-            
+            console.log("img "+slideNumber+"  Parent width="+parentwidth+"  img width="+newwidth+" widthdiff= "+widthdiff);
+           
 
               //---prepare to find out the text caption width
               //  So as to reposition the caption in a centralised position
