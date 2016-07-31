@@ -82,7 +82,114 @@ x<meta charset="utf-8">
 	</style>
 {% endif %}
 	
-	
+{% if page.w3Loaded %}
+ <style>
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  auto;
+}
+
+/* Next & previous buttons */
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  background-color:black; 
+  opacity:0.5; 
+  color: #f2f2f2;
+  15px;
+  "Arial";
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  /* width: 100%; */
+  /*  text-align: center;   */
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+ .active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation: fade 6s 0s forwards;  /*  you need forwards; else after ani it will disappear.  Second number is delay before it ani*/
+ /* -webkit-animation-duration: 1.5s;  */
+  -moz-animation: fade  6s 0s forwards;
+/*  -moz-animation-duration: 1.5s;   */
+  animation: fade  6s 0s forwards;
+/*  animation-duration: 1.5s;  */
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@-moz-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 0.9}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity:1}
+}
+
+
+/* On smaller screens, decrease text size i.e  device with width smaller than 300px */
+@media only screen and (max-width: 300px) {
+  .slprev, .slnext,.text { 11px}
+}
+
+</style>
+{% endif %}
 	
 
 {% if page.mathjax %}
