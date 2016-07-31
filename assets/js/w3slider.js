@@ -83,8 +83,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
         .load(function() {
           width=this.width;
           height=this.height;
-          //console.log("Width:  " + this.width);
-          //console.log("Height: " + this.height);
+          console.log("Width:  " + this.width);
+          console.log("Height: " + this.height);
 
             var totalImg=$(".imgg").length;
             console.log("current image="+slideNumber+"/"+totalImg+"  width="+width+"   height="+height+"   maWidth="+maxWidth+"  maxHt="+maxHeight);
