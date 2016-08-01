@@ -165,7 +165,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 
 
-			var document.getElementsByClassName("prev").css("left",capWdDiff);
+			document.getElementsByClassName("prev").css("left",capWdDiff);
 
 
 
