@@ -128,7 +128,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
             }
          */
  
-            var newwidth = width;//$(domSlideObj).width();
+            var newwidth = width;//$(domSlideObj).width(); adjusted picture width
             var parentwidth=$(domSlideObj).parent().width();
             //var capwidth=$(domCapObj).innerWidth();
             var widthdiff=(parentwidth-newwidth)/2;
@@ -165,11 +165,11 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 
 			$(".prev").css("left",widthdiff+"px");
-			var prevPos=widthdiff+newwidth+200
-			$(".next").css("left",prevPos+"px");
+			// prevPos=widthdiff+newwidth-20
+			
 			//$(".next").css("width","10px");
-
-
+			var rightPos=parentwidth-(widthdiff+newwidth)
+			$(".next").css("right",rightPos+"px");
 
 
 
