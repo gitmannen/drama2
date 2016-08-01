@@ -158,10 +158,29 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
                //----display current DOT
               document.getElementsByClassName("dot")[slideNumber-1].className += " active";
             
-                //---display slider numbertext
-              var numT=slideNumber+" / "+domNumObj.length;
-              domNumObj[slideNumber-1].innerHTML=numT;
-              console.log("caption width="+capwd+"    currentText="+curTxt+"   fontsize="+curFontSize+"   number text="+numT);
+             var slideno=slideNumber+"/"+slides.length
+			 console.log(slideno)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			   //---display slider numbertext
+              //var numT=slideNumber+" / "+domNumObj.length;
+              //domNumObj[slideNumber-1].innerHTML=numT;
+              //console.log("caption width="+capwd+"    currentText="+curTxt+"   fontsize="+curFontSize+"   number text="+numT);
           
       });// end  create a new <img> tag
     
