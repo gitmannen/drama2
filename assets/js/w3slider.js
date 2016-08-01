@@ -76,6 +76,7 @@ function showSlides(n) {
 // eg domSlideObj=document.getElementsByTagName("myslides")[0]    
 // eg domCapObj=document.getElementsByTagName("text")[0]    
 // eg domImggObj=document.getElementsByClassName("imgg");
+// eg domNumObj=document.getElementsByClassName("numbertext");
 function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 {
 	console.log("inside imgWdHtSetCenter")
@@ -164,7 +165,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 
 
-
+			var document.getElementsByClassName("prev").css("left",capWdDiff);
 
 
 
