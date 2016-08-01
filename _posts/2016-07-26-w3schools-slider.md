@@ -15,8 +15,8 @@ w3Loaded: true
 ---
 
    
-### Picture  carousel -  W3schools Sliders  4
-<div class="slideshow-container">
+### Picture  carousel -  W3schools Sliders  5
+<div class="slideshow-container" style="margin:0 auto; display: block;">
   <div class="mySlides fade">
     <div class="numbertext"></div>
     <img class="imgg" src="{{ site.url }}/images/costume3.jpg" >
