@@ -15,7 +15,7 @@ w3Loaded: true
 ---
 
    
-### Picture  carousel -  W3schools Sliders  2
+### Picture  carousel -  W3schools Sliders  3
 <div class="slideshow-container" style="margin:0 auto; display: block;">
   <div class="mySlides fade">
     <div class="numbertext"></div>
@@ -35,7 +35,11 @@ w3Loaded: true
     <div class="text" >Caption Three</div>
   </div>
 
-   
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img class="imgg"  src="{{ site.url }}/images/cover10.jpg" >
+    <div class="text" >Caption Four</div>
+  </div>   
   
   <a class="prev" >&#10094;</a>
   <a class="next" >&#10095;</a>
