@@ -160,7 +160,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
             
              var slideno=slideNumber+"/"+document.getElementsByClassName("mySlides").length
 			 console.log(slideno)
-			 document.getElementsByClassName("numbertext").innerHTML="1"
+			 document.getElementsByClassName("numbertext")[slideNumber-1].innerHTML=slideno
 
 
 

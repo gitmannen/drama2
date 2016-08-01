@@ -15,10 +15,10 @@ w3Loaded: true
 ---
 
    
-### Picture  carousel -  W3schools Sliders  5
+### Picture  carousel -  W3schools Sliders  6
 <div class="slideshow-container" style="margin:0 auto; display: block;">
   <div class="mySlides fade">
-    <div class="numbertext">1</div>
+    <div class="numbertext"></div>
     <img class="imgg" src="{{ site.url }}/images/costume3.jpg" >
     <div class="text" >Long Caption Text Text Text 1</div>
   </div>
