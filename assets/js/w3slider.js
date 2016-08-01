@@ -158,7 +158,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
                //----display current DOT
               document.getElementsByClassName("dot")[slideNumber-1].className += " active";
             
-             var slideno=slideNumber+"/"+slides.length
+             var slideno=slideNumber+"/"+document.getElementsByClassName("mySlides").length
 			 console.log(slideno)
 
 
