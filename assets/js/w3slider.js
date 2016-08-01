@@ -165,9 +165,9 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 
 			$(".prev").css("left",widthdiff+"px");
-			var prevPos=widthdiff+newwidth
+			var prevPos=widthdiff+newwidth-20
 			$(".next").css("left",prevPos+"px");
-
+			$(".next").css("width","10px");
 
 
 
