@@ -164,8 +164,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 			 document.getElementsByClassName("numbertext")[slideNumber-1].innerHTML=slideno;
 
 
-
-			document.getElementsByClassName("prev").css("left",capWdDiff);
+			$(".prev").css("left",capWdDiff);
+			
 
 
 
