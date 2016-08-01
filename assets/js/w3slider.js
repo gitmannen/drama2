@@ -1,5 +1,14 @@
 console.log("w3Slider loaded.")
 
+var dotrow=document.getElementById("dotrow");
+var spanstring="";
+var slid = document.getElementsByClassName("mySlides");
+for (i = 0; i < slid.length; i++) {
+     spanstring=spanstring + "<span class='dot' ></span>" + "\n";
+  }
+dotrow.innerHTML=spanstring
+console.log(spanstring)
+
 var slideNumber = 1; // slideNumber is 1-based
 showSlides(slideNumber);
 

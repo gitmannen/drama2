@@ -42,7 +42,7 @@ w3Loaded: true
 </div>
 <br>
 
-<div style="text-align:center">
+<div id="dotrow" style="text-align:center">
   <span class="dot" ></span> 
   <span class="dot" ></span> 
   <span class="dot" ></span> 
