@@ -214,16 +214,16 @@ function makeDropdown(){
 	var imgg=document.getElementsByClassName("imgg");
 	var imgScr=imgg[0].getAttribute("src");
 	var imgName
-	var fileNamePos
+	var imgNamePos
 	for (i = 0; i < slides.length; i++) {
-		combostring =  combostring +"<option value='volvo'>Volvo</option>" + "\n";
 		imgScr=imgg[i].getAttribute("src")
-		fileNamePos=imgScr.lastIndexOf("/")+1
+		imgNamePos=imgScr.lastIndexOf("/")+1
 		imgName=imgScr.substr(fileNamePos)
 		console.log(imgName);
+		combostring =  combostring +"<option value='"+imgName+"'>"+imgName+"</option>" + "\n";
 	}
 	dropdownBoxElement.innerHTML=combostring;
-	//console.log(combostring);
+	console.log(combostring);
 	  //<option value="volvo">Volvo</option>
 }
 
