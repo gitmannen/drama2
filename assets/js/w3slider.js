@@ -220,11 +220,19 @@ function makeDropdown(){
 		imgNamePos=imgScr.lastIndexOf("/")+1
 		imgName=imgScr.substr(imgNamePos)
 		console.log(imgName);
-		combostring =  combostring +"<option value='"+imgName+"'>"+imgName+"</option>" + "\n";
+		combostring =  combostring +"<option value='"+imgScr+"'>"+imgName+"</option>" + "\n";
 	}
 	dropdownBoxElement.innerHTML=combostring;
 	console.log(combostring);
 	  //<option value="volvo">Volvo</option>
+}
+
+function getSelectedValue(downloadDrop){
+	var selectedText = downloadDrop.options[downloadDrop.selectedIndex].innerHTML;
+    var selectedValue = downloadDrop.value;
+	console.log(selectedValue)
+	
+	
 }
 
 

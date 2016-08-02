@@ -51,7 +51,7 @@ w3Loaded: true
 </div>
 
 <div>
-	<select id="downloadDrop">
+	<select id="downloadDrop" onChange="getSelectedValue(this)">
 
 	</select>
 </div>
