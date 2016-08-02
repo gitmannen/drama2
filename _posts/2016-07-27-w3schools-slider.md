@@ -56,7 +56,7 @@ w3Loaded: true
 	</select>
 </div>
 
-<form id="downloadBtn" method="get" action="">
+<form id="downloadBtn" method="get" action="{{ site.url }}/images/costume3.jpg">
 	<button onclick="trigDl()" type="submit">Download!</button>
 </form>
 
