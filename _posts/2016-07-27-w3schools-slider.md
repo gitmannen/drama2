@@ -15,7 +15,7 @@ w3Loaded: true
 ---
 
    
-### Picture  carousel -  W3schools Sliders  2
+### Picture  carousel -  W3schools Sliders  3
 <div class="slideshow-container" style="margin:0 auto; display: block;">
   <div class="mySlides fade">
     <div class="numbertext"></div>
@@ -54,7 +54,7 @@ w3Loaded: true
 <div>
 	Choose file download:
 	<span>
-		<select id="downloadDrop" onChange="getSelectedValue(this)">
+		<select id="downloadDrop" onChange="getSelectedValue(this)" style"width:100px">
 
 		</select>
 	</span>
