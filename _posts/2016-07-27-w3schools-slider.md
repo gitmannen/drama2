@@ -15,7 +15,7 @@ w3Loaded: true
 ---
 
    
-### Picture  carousel -  W3schools Sliders  3
+### Picture  carousel -  W3schools Sliders  4
 <div class="slideshow-container" style="margin:0 auto; display: block;">
   <div class="mySlides fade">
     <div class="numbertext"></div>
@@ -54,15 +54,17 @@ w3Loaded: true
 <div>
 	Choose file download:
 	<span>
-		<select id="downloadDrop" onChange="getSelectedValue(this)" style="width:100px">
+		<select id="downloadDrop" onChange="getSelectedValue(this)" style="width:200px">
 
 		</select>
 	</span>
+	
+	<a id="downloadBtn" href="{{ site.url }}/images/costume3.jpg" download>
+		<button onclick="trigDl()" type="submit">Download!</button>
+	</a>
 </div>
 
-<a id="downloadBtn" href="{{ site.url }}/images/costume3.jpg" download>
-	<button onclick="trigDl()" type="submit">Download!</button>
-</a>
+
 
 
 	
