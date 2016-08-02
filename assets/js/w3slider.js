@@ -209,7 +209,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 
 
-var selectedValue
+var selectedValue = "{{ site.url }}/images/costume3.jpg"
 function makeDropdown(){
 	var slides = document.getElementsByClassName("mySlides");
 	var combostring = "";
