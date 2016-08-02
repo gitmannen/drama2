@@ -1,5 +1,7 @@
 console.log("w3Slider loaded.")
 
+
+//create navigation Dots
 var dotrow=document.getElementById("dotrow");
 var spanstring="";
 var slid = document.getElementsByClassName("mySlides");
@@ -11,6 +13,12 @@ console.log(spanstring)
 
 var slideNumber = 1; // slideNumber is 1-based
 showSlides(slideNumber);
+
+//create a combobox for download purpose
+makeDropdown();
+
+
+
 
 
  $(window).resize(function(){
@@ -198,6 +206,28 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
     
 
 };    //-------function imgWdHtSetCenter()----------
+
+function makeDropdown(){
+	var slides = document.getElementsByClassName("mySlides");
+	var combostring = "";
+	var dropdownBoxElement;
+	for (i = 0; i < slides.length; i++) {
+		combostring =  combostring +"<option value='volvo'>Volvo</option>"+"/n";
+	}
+	dropdownBoxElement.innerHTML=combostring;
+	console.log(combostring);
+	  //<option value="volvo">Volvo</option>
+}
+
+
+
+
+
+
+
+
+
+
 
 
  //----This is how to find the text width in px using jquery----
