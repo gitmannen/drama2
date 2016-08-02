@@ -207,7 +207,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 };    //-------function imgWdHtSetCenter()----------
 
-function makeDropdown(){
+/* function makeDropdown(){
 	var slides = document.getElementsByClassName("mySlides");
 	var combostring = "";
 	var dropdownBoxElement = document.getElementById("downloadDrop");
@@ -217,7 +217,7 @@ function makeDropdown(){
 	dropdownBoxElement.innerHTML=combostring;
 	console.log(combostring);
 	  //<option value="volvo">Volvo</option>
-}
+} */
 
 
 
