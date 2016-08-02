@@ -13,6 +13,13 @@ var slideNumber = 1; // slideNumber is 1-based
 showSlides(slideNumber);
 
 
+ $(window).resize(function(){
+	 
+	 showSlides(slideNumber)
+	 
+	 
+ });
+
 $(".prev").click(function(){
     showSlides(slideNumber -= 1);
 });
@@ -65,7 +72,7 @@ function showSlides(n) {
   
   var cscr=imgg[slideNumber-1].getAttribute("src");
   console.log("current src="+cscr)
-  
+ //fix image to the desired size and centralise
   imgWdHtSetCenter(slides[slideNumber-1], cpTxts[slideNumber-1],imgg ,numTxts);
   
 }
@@ -80,6 +87,9 @@ function showSlides(n) {
 function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 {
 	console.log("inside imgWdHtSetCenter")
+	
+	//===========!!!!Important How to change the picture displya height and width!!!!============
+	
     var maxWidth = 640;//787; // change this to your need width for the image
     var maxHeight =480 ;//480;    // Max height for the image
     var ratio = 0;  // Used for aspect ratio
@@ -139,8 +149,8 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
               //---prepare to find out the text caption width
               //  So as to reposition the caption in a centralised position
               var curTxt=domCapObj.innerHTML;
-              var curFontFam=$(domCapObj).css("font-family");
-              var curFontSize=$(domCapObj).css("font-size"); // eg  15px   i.e with px
+              var curFontFam=$(domCapObj).css("font-family"); //retrieve font family value from markdown file
+              var curFontSize=$(domCapObj).css("font-size"); // eg  15px   i.e with px retrieve font size value from markdown file
               var fontstr=curFontSize+" "+curFontFam; // eg  15px arial
               //-----call jquery func  textWidth() and return the text width
               var capwd=$(domCapObj).textWidth(curTxt, fontstr);
@@ -192,7 +202,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
  //----This is how to find the text width in px using jquery----
 //----------jquery way of finding text width
-// To call this jquery func ,     $('.classname').textWidth();
+// To call this jquery func ,     $('.classname').textWidth(text, font);
 //   font can be '15px arial'
 $.fn.textWidth = function(text, font) {
     if (!$.fn.textWidth.fakeEl) $.fn.textWidth.fakeEl = $('<span>').hide().appendTo(document.body);
