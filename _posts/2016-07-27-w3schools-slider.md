@@ -51,7 +51,7 @@ w3Loaded: true
 </div>
 
 <select id="downloadDrop">
-	<option value="volvo">Volvo</option>
+
 </select>
 	
 

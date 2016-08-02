@@ -15,7 +15,7 @@ var slideNumber = 1; // slideNumber is 1-based
 showSlides(slideNumber);
 
 //create a combobox for download purpose
-//makeDropdown();
+makeDropdown();
 
 
 
@@ -207,7 +207,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 };    //-------function imgWdHtSetCenter()----------
 
-/* function makeDropdown(){
+function makeDropdown(){
 	var slides = document.getElementsByClassName("mySlides");
 	var combostring = "";
 	var dropdownBoxElement = document.getElementById("downloadDrop");
@@ -217,7 +217,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 	dropdownBoxElement.innerHTML=combostring;
 	console.log(combostring);
 	  //<option value="volvo">Volvo</option>
-} */
+}
 
 
 
