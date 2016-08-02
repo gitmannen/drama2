@@ -211,11 +211,14 @@ function makeDropdown(){
 	var slides = document.getElementsByClassName("mySlides");
 	var combostring = "";
 	var dropdownBoxElement = document.getElementById("downloadDrop");
+	var imgScr=imgg[0].getAttribute("src")
 	for (i = 0; i < slides.length; i++) {
 		combostring =  combostring +"<option value='volvo'>Volvo</option>" + "\n";
+		imgScr=imgg[i].getAttribute("src")
+		console.log(imgScr);
 	}
 	dropdownBoxElement.innerHTML=combostring;
-	console.log(combostring);
+	//console.log(combostring);
 	  //<option value="volvo">Volvo</option>
 }
 
