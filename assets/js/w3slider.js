@@ -218,7 +218,7 @@ function makeDropdown(){
 	for (i = 0; i < slides.length; i++) {
 		imgScr=imgg[i].getAttribute("src")
 		imgNamePos=imgScr.lastIndexOf("/")+1
-		imgName=imgScr.substr(fileNamePos)
+		imgName=imgScr.substr(imgNamePos)
 		console.log(imgName);
 		combostring =  combostring +"<option value='"+imgName+"'>"+imgName+"</option>" + "\n";
 	}
