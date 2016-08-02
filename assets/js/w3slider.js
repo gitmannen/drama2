@@ -15,7 +15,7 @@ var slideNumber = 1; // slideNumber is 1-based
 showSlides(slideNumber);
 
 //create a combobox for download purpose
-makeDropdown();
+//makeDropdown();
 
 
 
