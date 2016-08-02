@@ -207,6 +207,9 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 };    //-------function imgWdHtSetCenter()----------
 
+
+
+var selectedValue
 function makeDropdown(){
 	var slides = document.getElementsByClassName("mySlides");
 	var combostring = "";
@@ -229,12 +232,17 @@ function makeDropdown(){
 
 function getSelectedValue(downloadDrop){
 	var selectedText = downloadDrop.options[downloadDrop.selectedIndex].innerHTML;
-    var selectedValue = downloadDrop.value;
+    selectedValue = downloadDrop.value;
 	console.log(selectedValue)
 	
 	
 }
 
+function trigDl(){
+	document.getElementById("downloadBtn").setAttribute("action", selectedValue)
+	
+	
+}
 
 
 
