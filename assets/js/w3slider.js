@@ -210,7 +210,7 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 function makeDropdown(){
 	var slides = document.getElementsByClassName("mySlides");
 	var combostring = "";
-	var dropdownBoxElement;
+	var dropdownBoxElement = document.getElementById("downloadDrop");
 	for (i = 0; i < slides.length; i++) {
 		combostring =  combostring +"<option value='volvo'>Volvo</option>"+"/n";
 	}
