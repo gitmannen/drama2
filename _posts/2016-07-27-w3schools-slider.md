@@ -15,7 +15,7 @@ w3Loaded: true
 ---
 
    
-### Picture  carousel -  W3schools Sliders  7
+### Picture  carousel -  W3schools Sliders  8
 <div class="slideshow-container" style="margin:0 auto; display: block;">
   <div class="mySlides fade">
     <div class="numbertext"></div>
@@ -56,9 +56,9 @@ w3Loaded: true
 	</select>
 </div>
 
-<form id="downloadBtn" method="get" action="">
+<a id="downloadBtn" href="">
 	<button onclick="trigDl()" type="submit">Download!</button>
-</form>
+</a>
 
 
 	

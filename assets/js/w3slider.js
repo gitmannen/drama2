@@ -239,7 +239,7 @@ function getSelectedValue(downloadDrop){
 }
 
 function trigDl(){
-	document.getElementById("downloadBtn").setAttribute("action", selectedValue)
+	document.getElementById("downloadBtn").setAttribute("href", selectedValue)
 	
 	
 }
