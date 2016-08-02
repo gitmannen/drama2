@@ -50,9 +50,11 @@ w3Loaded: true
 
 </div>
 
-<select id="downloadDrop">
+<div>
+	<select id="downloadDrop">
 
-</select>
+	</select>
+</div>
 	
 
 
