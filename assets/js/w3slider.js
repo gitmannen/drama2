@@ -212,7 +212,7 @@ function makeDropdown(){
 	var combostring = "";
 	var dropdownBoxElement = document.getElementById("downloadDrop");
 	for (i = 0; i < slides.length; i++) {
-		combostring =  combostring +"<option value='volvo'>Volvo</option>"+"/n";
+		combostring =  combostring +"<option value='volvo'>Volvo</option>" + "\n";
 	}
 	dropdownBoxElement.innerHTML=combostring;
 	console.log(combostring);
