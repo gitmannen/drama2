@@ -54,7 +54,7 @@ w3Loaded: true
 <div>
 	Choose file download:
 	<span>
-		<select id="downloadDrop" onChange="getSelectedValue(this)" style"width:100px">
+		<select id="downloadDrop" onChange="getSelectedValue(this)" style="width:100px">
 
 		</select>
 	</span>
