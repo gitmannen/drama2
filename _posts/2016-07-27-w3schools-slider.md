@@ -60,7 +60,7 @@ w3Loaded: true
 	</span>
 	
 	<a id="downloadBtn" href="" download>
-		<button onclick="trigDl()" type="submit">Download!</button>
+		<button type="submit">Download!</button>
 	</a>
 </div>
 
