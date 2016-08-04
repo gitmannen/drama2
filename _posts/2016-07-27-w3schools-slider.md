@@ -59,7 +59,7 @@ w3Loaded: true
 		</select>
 	</span>
 	
-	<a id="downloadBtn" href="{{ site.url }}/images/costume3.jpg" download>
+	<a id="downloadBtn" href="{{ site.url }}/images/costume3.jpg" target="_this" download>
 		<button type="submit">Download!</button>
 	</a>
 </div>
