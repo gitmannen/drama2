@@ -1,0 +1,18 @@
+Extracted from W3Schools from the following link: http://www.w3schools.com/howto/howto_js_slideshow.asp
+
+To set a different display height and width open w3slider.js in folder D:\github\drama2\assets\js
+
+Just change maxWidth and maxHeight to a different value
+
+function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
+
+    var maxWidth = 640;//787; // change this to your need width for the image
+    var maxHeight =480 ;//480;    // Max height for the image
+
+css declaration in head.html in D:\github\drama2\_includes folder using variable w3loaded as shown below
+
+{% if page.w3Loaded %}
+
+{% endif %}
+
+javascript declaration in scripts.html in D:\github\drama2\_includes
