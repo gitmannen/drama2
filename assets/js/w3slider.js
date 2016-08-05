@@ -251,8 +251,8 @@ function changeDropdoxValue(){
 	var imgg=document.getElementsByClassName("imgg");
 	var cscr=imgg[slideNumber-1].getAttribute("src");
 	console.log("current image is:"+cscr)
-	var dropdownBoxElement = document.getElementById("downloadDrop");
-	dropdownBoxElement.value=selectedValue
+	/* var dropdownBoxElement = document.getElementById("downloadDrop");
+	dropdownBoxElement.value=selectedValue */
 	
 	
 }
