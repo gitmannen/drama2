@@ -255,6 +255,8 @@ function changeDropdoxValue(){
 	console.log("current image is:"+cscr)
 	selectedValue=cscr
 	console.log("The scrolled value is: "+selectedValue)
+	​document.getElementById"'downloadDrop").value = selectedValue;​​​​​​​​​​
+
 	
 }
 
