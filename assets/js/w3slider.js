@@ -255,7 +255,7 @@ function changeDropdoxValue(){
 	console.log("current image is:"+cscr)
 	dropdownBoxElement = document.getElementById("downloadDrop");
 	dropdownBoxElement.value=selectedValue
-	
+	console.log(dropdownBoxElement)
 	
 }
 
