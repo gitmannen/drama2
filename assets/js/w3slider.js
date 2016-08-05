@@ -253,9 +253,8 @@ function changeDropdoxValue(){
 	var imgg=document.getElementsByClassName("imgg");
 	var cscr=imgg[slideNumber-1].getAttribute("src");
 	console.log("current image is:"+cscr)
-	dropdownBoxElement = document.getElementById("downloadDrop");
-	dropdownBoxElement.value=selectedValue
-	console.log("the dropdownBoxElement is "+dropdownBoxElement)
+	selectedValue=cscr
+	console.log("The scrolled value is: "+selectedValue)
 	
 }
 
