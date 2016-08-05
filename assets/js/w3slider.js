@@ -235,7 +235,7 @@ function makeDropdown(){
 function getSelectedValue(downloadDrop){
 	var selectedText = downloadDrop.options[downloadDrop.selectedIndex].innerHTML;
     selectedValue = downloadDrop.value;
-	console.log(selectedValue)
+	console.log("The selected value is: "+selectedValue)
 	document.getElementById("downloadBtn").setAttribute("href", selectedValue)
 	
 }
