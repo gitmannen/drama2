@@ -52,7 +52,7 @@ w3Loaded: true
 <br>
 <br>
 <div class="slideshow-container" style="margin:0 auto; display: block;">
-	Choose file download:
+	File to download:
 	<span>
 		<select id="downloadDrop" style="width:200px">
 
