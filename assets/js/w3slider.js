@@ -212,10 +212,12 @@ function imgWdHtSetCenter(domSlideObj, domCapObj,domImggObj, domNumObj)
 
 
 var selectedValue = "{{ site.url }}/images/costume3.jpg"
+var dropdownBoxElement
+
 function makeDropdown(){
 	var slides = document.getElementsByClassName("mySlides");
 	var combostring = "";
-	var dropdownBoxElement = document.getElementById("downloadDrop");
+	dropdownBoxElement = document.getElementById("downloadDrop");
 	var imgg=document.getElementsByClassName("imgg");
 	var imgScr=imgg[0].getAttribute("src");
 	var imgName
@@ -251,8 +253,8 @@ function changeDropdoxValue(){
 	var imgg=document.getElementsByClassName("imgg");
 	var cscr=imgg[slideNumber-1].getAttribute("src");
 	console.log("current image is:"+cscr)
-	/* var dropdownBoxElement = document.getElementById("downloadDrop");
-	dropdownBoxElement.value=selectedValue */
+	dropdownBoxElement = document.getElementById("downloadDrop");
+	dropdownBoxElement.value=selectedValue
 	
 	
 }
