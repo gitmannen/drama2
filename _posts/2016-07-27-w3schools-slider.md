@@ -54,12 +54,12 @@ w3Loaded: true
 <div class="slideshow-container" style="margin:0 auto; display: block;">
 	Choose file download:
 	<span>
-		<select id="downloadDrop" onChange="getSelectedValue(this)" style="width:200px">
+		<select id="downloadDrop" style="width:200px">
 
 		</select>
 	</span>
 	
-	<a id="downloadBtn" href="https://gitmannen.github.io/drama2/images/costume3.jpg" target="_this" download="_blank">
+	<a id="downloadBtn" onclick="getSelectedValue(downloadDrop)" href="" target="_this" download="">
 		<button type="submit">Download!</button>
 	</a>
 </div>
