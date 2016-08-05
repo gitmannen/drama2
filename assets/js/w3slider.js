@@ -244,7 +244,15 @@ function trigDl(){
 	
 } */
 
-
+function changeDropdoxValue(){
+	var slides = document.getElementsByClassName("mySlides");
+	var imgg=document.getElementsByClassName("imgg");
+	var cscr=imgg[slideNumber-1].getAttribute("src");
+	console.log("current image is:"+cscr)
+	
+	
+	
+}
 
 
 
