@@ -29,11 +29,13 @@ makeDropdown();
  });
 
 $(".prev").click(function(){
-    showSlides(slideNumber -= 1);
+    showSlides(slideNumber -= 1)
+	changeDropdoxValue();
 });
 
 $(".next").click(function(){
-    showSlides(slideNumber += 1);
+    showSlides(slideNumber += 1)
+	changeDropdoxValue();
 });
 
 
